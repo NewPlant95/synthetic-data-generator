@@ -1,6 +1,6 @@
 # Expected Patterns
 
-This file is the check list for the narrative signals intentionally built into `GameStudioBI`.
+This file is the check list for the narrative signals intentionally built into `FakeGameStudio`.
 
 Use it when you inspect the generated CSVs and want to separate real structure from noise.
 
@@ -205,7 +205,7 @@ You should expect:
 
 If these fail, the data issue is structural, not narrative.
 
-## Quick Sanity Check
+## QA-Short
 
 If you want the shortest possible check, confirm these four things:
 
@@ -213,5 +213,3 @@ If you want the shortest possible check, confirm these four things:
 2. the session and purchase curves move in the same direction as the scenario
 3. reviews improve after positive content and worsen after bad incidents
 4. the item mix shifts during the cosmetics promotion
-
-That is the main structure the dataset is designed to expose.
