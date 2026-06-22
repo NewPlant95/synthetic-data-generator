@@ -1,0 +1,18 @@
+[project]
+name = "GameStudioBI"
+version = "0.1.0"
+description = "Internal business intelligence simulation scaffold for a fictional game studio inspired by space exploration titles."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faker>=37.0.0",
+    "numpy>=2.0.0",
+    "pandas>=2.2.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["data_gen"]
